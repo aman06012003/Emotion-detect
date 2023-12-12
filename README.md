@@ -20,4 +20,6 @@ pip install -r requirements.txt
 ```bash
 streamlit run app.py
 ```
+The below image is a snapshot of the Web app
+![image](https://github.com/aman06012003/Emotion-detect/assets/84065246/ee1a6cd9-9ec5-4c02-a900-eb4b6970b5a7)
 
