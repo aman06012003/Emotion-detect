@@ -32,7 +32,7 @@ def user_input():
     # st.write(text)
     encoder = pickle.load(open('encoder.pkl', 'rb'))
     cv = pickle.load(open('CountVectorizer.pkl', 'rb'))
-    model=tf.keras.models.load_model('emotion_seq.h5')
+    model=tf.keras.models.load_model('emt_model.h5')
     input=preprocess(text)
 
     array = cv.transform([input]).toarray()
